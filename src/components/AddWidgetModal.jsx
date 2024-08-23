@@ -12,8 +12,8 @@ const AddWidgetModal = ({ category, onClose }) => {
 
   useEffect(() => {
     AOS.init({
-      duration: 4000, // Duration of the animation
-      once: true, // Whether animation should happen only once - while scrolling down
+      duration: 4000, 
+      once: true,
     });
   }, []);
 
